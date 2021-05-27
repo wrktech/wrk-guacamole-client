@@ -1,0 +1,28 @@
+{
+  "name": "wrk-guacamole-client",
+  "version": "1.0.0",
+  "description": "Wrk Gaucamole Client Fork",
+  "main": "dist/js/guacamole-common-js.all.min.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "build-js": "gulp build-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wrktech/guacamole-client.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wrktech/guacamole-client/issues"
+  },
+  "homepage": "https://github.com/wrktech/guacamole-client#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.2"
+  }
+}
